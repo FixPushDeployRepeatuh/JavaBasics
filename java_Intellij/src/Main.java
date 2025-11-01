@@ -1,4 +1,8 @@
-
+import AbstractTrainee.Car;
+import AbstractTrainee.Vehicle;
+import finalTrainee.Boss;
+import finalTrainee.Member;
+import staticTrainee.Student;
 
 class Animal{
     int age= 10;
@@ -24,8 +28,23 @@ class Dog extends Animal{
 
 public class Main {
     public static void main(String[] args) {
-        Dog d = new Dog();
-        System.out.println(d);
+//        Dog d = new Dog();
+//        System.out.println(d);
+
+//        Employee e = new Employee("David");
+
+        //Abstract Class and Abstract method
+//        Car vehicle = new Car();
+//        vehicle.speed();
+
+        // Static process
+//        Student.TeacherName = "panda";
+//        System.out.println(Student.TeacherName);
+//        Student.main(args);
+
+        //final
+        Member b = new Member();
+        b.disp();
 
     }
 }
